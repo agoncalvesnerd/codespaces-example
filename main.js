@@ -4,7 +4,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.end("Hello World");
+  res.end("Hello World Changed ! with synergy!!");
 });
 
 app.listen(process.env.PORT, () => console.log("App Started"));
